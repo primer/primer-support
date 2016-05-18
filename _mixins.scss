@@ -1,0 +1,93 @@
+// mixins
+// scss-lint:disable SpaceBetweenParens
+// Generate a two-color caret for any element.
+@mixin double-caret($foreground: #fff, $background: #ddd) {
+  &::after,
+  &::before {
+    position: absolute;
+    top: 11px;
+    right: 100%;
+    left: -16px;
+    display: block;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+    content: " ";
+    border-color: transparent;
+    border-style: solid solid outset;
+  }
+
+  &::after {
+    margin-top: 1px;
+    margin-left: 2px;
+    border-width: 7px;
+    border-right-color: $foreground;
+  }
+
+  &::before {
+    border-width: 8px;
+    border-right-color: $background;
+  }
+}
+
+// Responsive media queries
+//
+// Generate media queries from the Sass map found in the local `variables` file.
+
+@mixin media-min($breakpoint) {
+  @if map-has-key($grid-breakpoints, $breakpoint) {
+    @media (min-width: map-get($grid-breakpoints, $breakpoint)) {
+      @content;
+    }
+  }
+}
+
+@mixin media-max($breakpoint) {
+  // This ensures that if min and max are used together there won't be a 1px overlap, and eliminates the need to duplicate variables
+  @if map-has-key($grid-breakpoints, $breakpoint) {
+    $breakpoint-down: map-get($grid-breakpoints, $breakpoint) - 1px;
+
+    @media (max-width: $breakpoint-down) {
+      @content;
+    }
+  }
+}
+
+@mixin retina-media-query {
+  @media
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (   min--moz-device-pixel-ratio: 2),
+  only screen and (   -moz-min-device-pixel-ratio: 2),
+  only screen and (     -o-min-device-pixel-ratio: 2/1),
+  only screen and (        min-device-pixel-ratio: 2),
+  only screen and (                min-resolution: 192dpi),
+  only screen and (                min-resolution: 2dppx) {
+    @content;
+  }
+}
+
+// Clearfix
+//
+// Clears floats via mixin (avoid using as a class).
+
+@mixin clearfix {
+  &::before {
+    display: table;
+    content: "";
+  }
+
+  &::after {
+    display: table;
+    clear: both;
+    content: "";
+  }
+}
+
+// Text hiding for image based text replacement.
+// Higher performance than -9999px because it only renders
+// the size of the actual text, not a full 9999px box.
+@mixin hide-text() {
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
