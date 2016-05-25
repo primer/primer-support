@@ -1,3 +1,10 @@
+# v0.3.0
+
+ * Don't link requirements - Jon Rohan [github/github@7740e81](https://github.com/github/github/commit/7740e81)
+ * Updating the README with more detailed instructions - Jon Rohan [github/github@5dd7c34](https://github.com/github/github/commit/5dd7c34)
+ * Bumping the version - Jon Rohan [github/github@01e7c4e](https://github.com/github/github/commit/01e7c4e)
+ * Reorganize the module folders into a more flexible organization - Jon Rohan [github/github@5a07101](https://github.com/github/github/commit/5a07101)
+
 # v0.2.0
 
  * v0.2.0 - Jon Rohan [github/github@75201c5](https://github.com/github/github/commit/75201c5)
