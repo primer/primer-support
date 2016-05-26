@@ -1,5 +1,3 @@
-// mixins
-// scss-lint:disable SpaceBetweenParens
 // Generate a two-color caret for any element.
 @mixin double-caret($foreground: #fff, $background: #ddd) {
   &::after,
@@ -36,7 +34,8 @@
 
 @mixin media-min($breakpoint) {
   @if map-has-key($grid-breakpoints, $breakpoint) {
-    @media (min-width: map-get($grid-breakpoints, $breakpoint)) {
+    $min-width: map-get($grid-breakpoints, $breakpoint);
+    @media (min-width: $min-width) {
       @content;
     }
   }
@@ -55,13 +54,13 @@
 
 @mixin retina-media-query {
   @media
-  only screen and (-webkit-min-device-pixel-ratio: 2),
-  only screen and (   min--moz-device-pixel-ratio: 2),
-  only screen and (   -moz-min-device-pixel-ratio: 2),
-  only screen and (     -o-min-device-pixel-ratio: 2/1),
-  only screen and (        min-device-pixel-ratio: 2),
-  only screen and (                min-resolution: 192dpi),
-  only screen and (                min-resolution: 2dppx) {
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (-moz-min-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
     @content;
   }
 }

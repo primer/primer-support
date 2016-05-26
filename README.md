@@ -31,14 +31,6 @@ The source files included are written in [Sass][sass] (`scss`) You can simply po
 
 You can also import specific portions of the module by importing those partials from the `/lib/` folder. _Make sure you import any requirements along with the modules._
 
-## Build
-
-For a compiled **css** version of this module, a npm script is included that will output a css version to `build/build.css`
-
-```
-$ npm run build
-```
-
 ## Related
 
 * [Primer Documentation][docs]
