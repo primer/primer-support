@@ -1,3 +1,7 @@
+# v0.3.2
+
+ * Bumping version to include postcss.json in npm - Jon Rohan [github/github@9e560ba](https://github.com/github/github/commit/9e560ba)
+
 # v0.3.1
 
  * Using stylelint to lint the modules instead of scss_lint - Jon Rohan [github/github@cb0b8fd](https://github.com/github/github/commit/cb0b8fd)
