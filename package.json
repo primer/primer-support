@@ -1,5 +1,5 @@
 {
-  "version": "0.3.1",
+  "version": "0.3.2",
   "name": "primer-support",
   "description": "Sass variables, mixins, and functions for use in our components.",
   "homepage": "http://primercss.io/",
