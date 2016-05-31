@@ -1,3 +1,8 @@
+# HEAD
+
+ * disabling some lints - Jon Rohan [github/github@3d70154](https://github.com/github/github/commit/3d70154)
+ * Adding callouts to alerts module - Jon Rohan [github/github@355fe6c](https://github.com/github/github/commit/355fe6c)
+
 # v0.3.2
 
  * Bumping version to include postcss.json in npm - Jon Rohan [github/github@9e560ba](https://github.com/github/github/commit/9e560ba)
