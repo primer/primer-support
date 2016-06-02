@@ -1,5 +1,6 @@
 # HEAD
 
+ * reoganizing the docs section - Jon Rohan [github/github@8cb4556](https://github.com/github/github/commit/8cb4556)
  * disabling some lints - Jon Rohan [github/github@3d70154](https://github.com/github/github/commit/3d70154)
  * Adding callouts to alerts module - Jon Rohan [github/github@355fe6c](https://github.com/github/github/commit/355fe6c)
 
