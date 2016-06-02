@@ -9,10 +9,6 @@
 
 This repository is a module of the full [primer-css][primer] repository.
 
-## Documentation
-
-You can read more about support in the [docs][docs].
-
 ## Install
 
 This repository is distributed with [npm][npm]. After [installing npm][install-npm], you can install `primer-support` with this command.
@@ -31,14 +27,13 @@ The source files included are written in [Sass][sass] (`scss`) You can simply po
 
 You can also import specific portions of the module by importing those partials from the `/lib/` folder. _Make sure you import any requirements along with the modules._
 
-## Related
+## Documentation
 
-* [Primer Documentation][docs]
-* [primer-css][primer]
+You can read more about support in the [docs][docs].
 
 ## License
 
-MIT &copy; [GitHub](https://github.com/)
+[MIT](./LICENSE) &copy; [GitHub](https://github.com/)
 
 [primer]: https://github.com/primer/primer
 [docs]: http://primercss.io/
