@@ -1,5 +1,7 @@
 # HEAD
 
+ * Adding lint plugins for new config - Jon Rohan [github/github@7fb9613](https://github.com/github/github/commit/7fb9613)
+ * add font-weight to heading mixins - broccolini [github/github@585098e](https://github.com/github/github/commit/585098e)
  * reoganizing the docs section - Jon Rohan [github/github@8cb4556](https://github.com/github/github/commit/8cb4556)
  * disabling some lints - Jon Rohan [github/github@3d70154](https://github.com/github/github/commit/3d70154)
  * Adding callouts to alerts module - Jon Rohan [github/github@355fe6c](https://github.com/github/github/commit/355fe6c)
