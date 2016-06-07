@@ -1,5 +1,6 @@
 # HEAD
 
+ * including no-utility lint plugin - Jon Rohan [github/github@5cb86ed](https://github.com/github/github/commit/5cb86ed)
  * Adding lint plugins for new config - Jon Rohan [github/github@7fb9613](https://github.com/github/github/commit/7fb9613)
  * add font-weight to heading mixins - broccolini [github/github@585098e](https://github.com/github/github/commit/585098e)
  * reoganizing the docs section - Jon Rohan [github/github@8cb4556](https://github.com/github/github/commit/8cb4556)
