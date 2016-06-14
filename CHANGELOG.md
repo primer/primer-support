@@ -1,5 +1,7 @@
 # HEAD
 
+ * Revert variables breakup back to single file - Jon Rohan [github/github@3397db7](https://github.com/github/github/commit/3397db7)
+ * Organize the variables and mixins into better files - Jon Rohan [github/github@9383dc2](https://github.com/github/github/commit/9383dc2)
  * Removing some unnecessary lint plugins and using native - Jon Rohan [github/github@2ae0070](https://github.com/github/github/commit/2ae0070)
  * including no-utility lint plugin - Jon Rohan [github/github@5cb86ed](https://github.com/github/github/commit/5cb86ed)
  * Adding lint plugins for new config - Jon Rohan [github/github@7fb9613](https://github.com/github/github/commit/7fb9613)
