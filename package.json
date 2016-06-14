@@ -19,9 +19,8 @@
     "test": "npm run lint"
   },
   "devDependencies": {
-    "stylelint": "^6.5.1",
-    "stylelint-scss": "^1.1.1",
-    "stylelint-selector-no-utility": "^1.1.0"
+    "stylelint": "^6.6.0",
+    "stylelint-config-primer": "^1.0.0"
   },
   "keywords": [
     "primer",
