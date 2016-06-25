@@ -10,33 +10,33 @@
 // Heading mixins for use within components
 // These match heading utilities in utilities/typography
 @mixin h1 {
-  font-size: 30px;
-  font-weight: bold;
+  font-size: $h1-size;
+  font-weight: $font-weight-bold;
 }
 
 @mixin h2 {
-  font-size: 21px;
-  font-weight: bold;
+  font-size: $h2-size;
+  font-weight: $font-weight-bold;
 }
 
 @mixin h3 {
-  font-size: 16px;
-  font-weight: bold;
+  font-size: $h3-size;
+  font-weight: $font-weight-bold;
 }
 
 @mixin h4 {
-  font-size: 14px;
-  font-weight: bold;
+  font-size: $h4-size;
+  font-weight: $font-weight-bold;
 }
 
 @mixin h5 {
-  font-size: 12px;
-  font-weight: bold;
+  font-size: $h5-size;
+  font-weight: $font-weight-bold;
 }
 
 @mixin h6 {
-  font-size: 11px;
-  font-weight: bold;
+  font-size: $h6-size;
+  font-weight: $font-weight-bold;
 }
 
 // Responsive heading mixins
