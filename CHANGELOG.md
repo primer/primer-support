@@ -1,5 +1,6 @@
-# HEAD
+# v0.4.0
 
+ * Publishing a new version - Jon Rohan [github/github@eed0e96](https://github.com/github/github/commit/eed0e96)
  * New line-height variables - Mark Otto [github/github@b15b1ea](https://github.com/github/github/commit/b15b1ea)
  * Revert variables breakup back to single file - Jon Rohan [github/github@3397db7](https://github.com/github/github/commit/3397db7)
  * Organize the variables and mixins into better files - Jon Rohan [github/github@9383dc2](https://github.com/github/github/commit/9383dc2)
