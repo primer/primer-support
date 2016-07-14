@@ -1,3 +1,12 @@
+# HEAD
+
+ * Rename spacer variables - Sophie Shepherd [github/github@e5ffa47](https://github.com/github/github/commit/e5ffa47)
+ * default it - Mark Otto [github/github@6c895dd](https://github.com/github/github/commit/6c895dd)
+ * slightly different stack - Mark Otto [github/github@4e3882d](https://github.com/github/github/commit/4e3882d)
+ * nuke linux fonts - Mark Otto [github/github@534c790](https://github.com/github/github/commit/534c790)
+ * Change variable order - Mark Otto [github/github@42bceda](https://github.com/github/github/commit/42bceda)
+ * First part of genpopping all system font changes: remove typographic overrides for font-size, line-height, etc on global components - Mark Otto [github/github@6c50e2d](https://github.com/github/github/commit/6c50e2d)
+
 # v0.4.0
 
  * Publishing a new version - Jon Rohan [github/github@eed0e96](https://github.com/github/github/commit/eed0e96)
