@@ -1,5 +1,6 @@
-# HEAD
+# v0.5.0
 
+ * Bumping to a new version - Jon Rohan [github/github@ff32813](https://github.com/github/github/commit/ff32813)
  * Rename spacer variables - Sophie Shepherd [github/github@e5ffa47](https://github.com/github/github/commit/e5ffa47)
  * default it - Mark Otto [github/github@6c895dd](https://github.com/github/github/commit/6c895dd)
  * slightly different stack - Mark Otto [github/github@4e3882d](https://github.com/github/github/commit/4e3882d)
