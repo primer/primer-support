@@ -119,6 +119,8 @@ $border: $border-width $border-color $border-style !default;
 $border-radius: 3px !default;
 
 // Heading sizes
+$h00-size: 48px !default;
+$h0-size: 40px !default;
 $h1-size: 32px !default;
 $h2-size: 24px !default;
 $h3-size: 20px !default;
@@ -127,6 +129,7 @@ $h5-size: 14px !default;
 $h6-size: 12px !default;
 
 $font-weight-bold: 600 !default;
+$font-weight-light: 300 !default;
 
 $font-size-small: 12px !default;
 
@@ -159,7 +162,11 @@ $conversationListBorderColor: #eee;
 
 $exploregrid-item-border-radius: 4px;
 
-$stats-viewport-height: 38px;
+$stats-switcher-py: 10px;
+// Future proof this `height` value by finding the computed line-height, then
+// adding the total value of the vertical padding. This var is used to toggle
+// between the stats bar and language breakdown.
+$stats-viewport-height: ($body-font-size * $body-line-height) + ($stats-switcher-py * 2);
 
 $min_tab_size: 1;
 $max_tab_size: 12;
