@@ -1,27 +1,25 @@
 // Responsive media queries
-// TODO phase this out in favor of the @breakpoint mixin below
-//
-// Generate media queries from the Sass map found in the local `variables` file.
-// stylelint-disable block-closing-brace-newline-after
-@mixin media-min($breakpoint) {
-  @if map-has-key($grid-breakpoints, $breakpoint) {
-    $min-width: map-get($grid-breakpoints, $breakpoint);
-    @media (min-width: $min-width) {
+
+@mixin breakpoint($breakpoint) {
+  // Retrieves the value from the key
+  $value: map-get($breakpoints, $breakpoint);
+
+  // If the key exists in the map
+  @if $value != null {
+    // Prints a media query based on the value
+    @media (min-width: $value) {
       @content;
     }
   }
-}
 
-@mixin media-max($breakpoint) {
-  // This ensures that if min and max are used together there won't be a 1px overlap, and eliminates the need to duplicate variables
-  @if map-has-key($grid-breakpoints, $breakpoint) {
-    $breakpoint-down: map-get($grid-breakpoints, $breakpoint) - 1px;
-
-    @media (max-width: $breakpoint-down) {
-      @content;
-    }
+  // If the key doesn't exist in the map
+  @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+      + "Please make sure it is defined in `$breakpoints` map.";
   }
 }
+
+// Retina media query
 
 @mixin retina-media-query {
   @media
@@ -36,40 +34,9 @@
   }
 }
 
-// Breakpoint viewport sizes and media queries.
-// TODO replace the media-min and media-max queries above with this.
-//
-// Breakpoints are defined as a map of (name: minimum width), order from small to large:
-//
-//    (xs: 0, sm: 544px, md: 768px)
-//
-// The map defined in the `$grid-breakpoints` global variable is used as the `$breakpoints` argument by default.
-
-// Minimum breakpoint width. Null for the smallest (first) breakpoint.
-//
-//    >> breakpoint-min(sm, (xs: 0, sm: 544px, md: 768px))
-//    544px
-@function breakpoint-min($name, $breakpoints: $grid-breakpoints) {
-  $min: map-get($breakpoints, $name);
-  @return if($min != 0, $min, null);
-}
-
-// Media of at least the minimum breakpoint width. No query for the smallest breakpoint.
-// Makes the @content apply to the given breakpoint and wider.
-@mixin breakpoint($name, $breakpoints: $grid-breakpoints) {
-  $min: breakpoint-min($name, $breakpoints);
-  @if $min {
-    @media (min-width: $min) {
-      @content;
-    }
-  } @else {
-    @content;
-  }
-}
-
 // Clearfix
 //
-// Clears floats via mixin (avoid using as a class).
+// Clears floats via mixin.
 
 @mixin clearfix {
   &::before {
