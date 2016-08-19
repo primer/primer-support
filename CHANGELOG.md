@@ -1,5 +1,6 @@
-# HEAD
+# v0.6.0
 
+ * Updating version - Jon Rohan [github/github@6bf5fe5](https://github.com/github/github/commit/6bf5fe5)
  * use variables in breakpoints and update containers - broccolini [github/github@b615663](https://github.com/github/github/commit/b615663)8
  * Updating the modules stylelint - Jon Rohan [github/github@389609f](https://github.com/github/github/commit/389609f)
  * comment for @connors - Mark Otto [github/github@b3e2922](https://github.com/github/github/commit/b3e2922)
