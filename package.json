@@ -10,9 +10,9 @@
     "index.scss",
     "lib"
   ],
-  "repository": "https://github.com/primer/support.git",
+  "repository": "https://github.com/primer/primer-support.git",
   "bugs": {
-    "url": "https://github.com/primer/support/issues"
+    "url": "https://github.com/primer/primer-support/issues"
   },
   "scripts": {
     "lint": "stylelint **/*.scss -c .stylelintrc.json -s scss",
