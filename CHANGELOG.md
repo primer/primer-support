@@ -1,5 +1,7 @@
 # HEAD
 
+ * Defaulting variables to new formula, with hardcoded old values - Jon Rohan [github/github@1f12c54](https://github.com/github/github/commit/1f12c54)
+ * Updating spacer-2 to 8px - Jon Rohan [github/github@3f7fbaf](https://github.com/github/github/commit/3f7fbaf)
  * Rename repository with prefix primer- - Jon Rohan [github/github@ec8774a](https://github.com/github/github/commit/ec8774a)
  * Getting rid of as much as possible - Sophie Shepherd [github/github@e2e5de4](https://github.com/github/github/commit/e2e5de4)
  * Make default box shadow a var and apply it to .box-shadow utility - Patrick Marsceill [github/github@bda03be](https://github.com/github/github/commit/bda03be)
