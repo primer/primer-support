@@ -14,7 +14,7 @@ $spacers: (
   0,
   round($spacer / 2),
   $spacer,
-  12px, //$spacer * 2,
+  $spacer * 2,
   $spacer * 3,
   36px, // $spacer * 4,
   48px // $spacer * 5
