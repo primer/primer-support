@@ -1,3 +1,9 @@
+# v1.1.0
+
+ * updating the version number - Jon Rohan [github/github@db462e6](https://github.com/github/github/commit/db462e6)
+ * Updating spacer-6 from 48px to 40px - Jon Rohan [github/github@ae380d1](https://github.com/github/github/commit/ae380d1)
+ * updating lg breakpoint for use with new spacer-3 - Jon Rohan [github/github@f5baf52](https://github.com/github/github/commit/f5baf52)
+
 # v1.0.0
 
  * Fix counter color on primary button - Patrick Marsceill [github/github@9089145](https://github.com/github/github/commit/9089145)
