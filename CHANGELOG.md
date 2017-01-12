@@ -1,3 +1,13 @@
+# HEAD
+
+ * Consolidate variables - Patrick Marsceill [github/github@37ea8ac](https://github.com/github/github/commit/37ea8ac)
+ * Make shadow vars - Patrick Marsceill [github/github@93b2e11](https://github.com/github/github/commit/93b2e11)
+ * update bg-yellow variables - broccolini [github/github@79701f2](https://github.com/github/github/commit/79701f2)
+ * Moving - Jon Rohan [github/github@34d0849](https://github.com/github/github/commit/34d0849)
+ * Updates based on feedback - Jon Rohan [github/github@d3528f1](https://github.com/github/github/commit/d3528f1)
+ * Documenting current color utilities - Jon Rohan [github/github@46b5f85](https://github.com/github/github/commit/46b5f85)
+ * add border color variables - broccolini [github/github@42f0fc0](https://github.com/github/github/commit/42f0fc0)
+
 # v1.1.0
 
  * updating the version number - Jon Rohan [github/github@db462e6](https://github.com/github/github/commit/db462e6)
