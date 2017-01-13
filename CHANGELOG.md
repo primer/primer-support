@@ -1,5 +1,6 @@
-# HEAD
+# v1.2.0
 
+ * Revving this per @jonrohan - Patrick Marsceill [github/github@331f0b1](https://github.com/github/github/commit/331f0b1)
  * Consolidate variables - Patrick Marsceill [github/github@37ea8ac](https://github.com/github/github/commit/37ea8ac)
  * Make shadow vars - Patrick Marsceill [github/github@93b2e11](https://github.com/github/github/commit/93b2e11)
  * update bg-yellow variables - broccolini [github/github@79701f2](https://github.com/github/github/commit/79701f2)
