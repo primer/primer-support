@@ -1,3 +1,7 @@
+# v1.2.1
+
+ * More versions - Jon Rohan [github/github@e12ba2e](https://github.com/github/github/commit/e12ba2e)
+
 # v1.2.0
 
  * Revving this per @jonrohan - Patrick Marsceill [github/github@331f0b1](https://github.com/github/github/commit/331f0b1)
