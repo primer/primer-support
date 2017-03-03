@@ -21,12 +21,13 @@ $border-black-fade:  $black-fade-15 !default;
 $border-blue:        $blue-500 !default;
 $border-blue-light:  $blue-200 !default;
 
-$border-red:        desaturate($red-300, 60%) !default;
-$border-red-dark:   $red !default;
-$border-gray-dark:  $gray-300 !default;
+$border-red:         $red !default;
+$border-red-light:   desaturate($red-300, 60%) !default;
+
+$border-gray-dark:   $gray-300 !default;
 $border-gray-darker: $gray-700 !default;
-$border-gray-light: lighten($gray-200, 3%) !default;
-$border-gray:       $gray-200 !default;
+$border-gray-light:  lighten($gray-200, 3%) !default;
+$border-gray:        $gray-200 !default;
 
 // Background colors
 $bg-blue-light:     $blue-000 !default;
