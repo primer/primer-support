@@ -1,3 +1,8 @@
+# v3.0.0
+
+ * bump major version due to renaming in support and utils - broccolini [github/github@85b48ab](https://github.com/github/github/commit/85b48ab)
+ * rename border variables - broccolini [github/github@0a580d5](https://github.com/github/github/commit/0a580d5)
+
 # v2.1.0
 
  * versions - Sophie Shepherd [github/github@703a904](https://github.com/github/github/commit/703a904)
