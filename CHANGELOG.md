@@ -1,3 +1,8 @@
+# v3.0.1
+
+ * bump version after adding variable - broccolini [github/github@7eeeed5](https://github.com/github/github/commit/7eeeed5)
+ * add yellow border variable to replace old flash border variable - broccolini [github/github@6eb26ee](https://github.com/github/github/commit/6eb26ee)
+
 # v3.0.0
 
  * bump major version due to renaming in support and utils - broccolini [github/github@85b48ab](https://github.com/github/github/commit/85b48ab)
