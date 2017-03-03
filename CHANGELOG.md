@@ -1,3 +1,8 @@
+# v2.1.0
+
+ * versions - Sophie Shepherd [github/github@703a904](https://github.com/github/github/commit/703a904)
+ * @broccolini's feedback - Sophie Shepherd [github/github@f9699ef](https://github.com/github/github/commit/f9699ef)
+
 # v2.0.0
 
  * Fix lint - Mu-An Chiou [github/github@5a4b3cb](https://github.com/github/github/commit/5a4b3cb)
