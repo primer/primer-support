@@ -21,6 +21,9 @@ $border-black-fade:  $black-fade-15 !default;
 $border-blue:        $blue-500 !default;
 $border-blue-light:  $blue-200 !default;
 
+$border-green:       $green-400 !default;
+$border-green-light: desaturate($green-300, 40%) !default;
+
 $border-red:         $red !default;
 $border-red-light:   desaturate($red-300, 60%) !default;
 
