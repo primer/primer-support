@@ -1,3 +1,8 @@
+# v3.0.2
+
+ * Bump all the version numbers for readme - Mu-An Chiou [github/github@a9d152f](https://github.com/github/github/commit/a9d152f)
+ * Fix all the travis badge URL - Mu-An Chiou [github/github@9cd6d84](https://github.com/github/github/commit/9cd6d84)
+
 # v3.0.1
 
  * bump version after adding variable - broccolini [github/github@7eeeed5](https://github.com/github/github/commit/7eeeed5)
