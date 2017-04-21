@@ -1,3 +1,8 @@
+# v4.0.0
+
+ * fixed missing updates to typoraphy mixins from bad merge - broccolini [github/github@1bd8f15](https://github.com/github/github/commit/1bd8f15)
+ * update versions for primer-core suppor and utilities - broccolini [github/github@167ed79](https://github.com/github/github/commit/167ed79)
+
 # v3.1.0
 
  * correct primer support version number - broccolini [github/github@b767f0f](https://github.com/github/github/commit/b767f0f)d534
